@@ -35,7 +35,7 @@ invisible(lapply(required_packages, library, character.only = TRUE))
 # IMPORTANT:
 # Do not write your OpenAQ API key inside this script.
 # Before running the script, set the API key in your local R console:
-# Sys.setenv(OPENAQ_KEY = "YOUR_API_KEY_HERE")
+# Sys.setenv(OPENAQ_KEY = "YOUR_API_KEY")
 
 api <- "https://api.openaq.org/v3"
 
